@@ -6,13 +6,13 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 
 ## 👤 Core Users Features:
 
-- **[Registration and Authorization](#1-registration-and-authorization)** – Users must join mandatory channels before accessing the bot.
-- **[Balance Management](#2-balance-management)** – Users can check, add, and deduct balance with transaction history.
-- **[Withdrawals](#3-withdrawals)** – Users can request withdrawals, which require admin approval.
-- **[Referral System](#4-referral-system)** – Users receive unique referral links and earn rewards.
-- **[Bonus System](#5-bonus-system)** – Users can claim periodic bonuses.
+- **[Registration and Authorization](#registration-and-authorization)** – Users must join mandatory channels before accessing the bot.
+- **[Balance Management](#balance)** – Users can check, add, and deduct balance with transaction history.
+- **[Withdrawals](#withdrawals)** – Users can request withdrawals, which require admin approval.
+- **[Referral System](#referral)** – Users receive unique referral links and earn rewards.
+- **[Bonus System](#bonus)** – Users can claim periodic bonuses.
 - **[Statistics](#statistics)** – Tracks total users, referrals, and earnings.
-- **[Support System](#7-support-system)** – Users can contact support, and admins can respond.
+- **[Support System](#support)** – Users can contact support, and admins can respond.
 
 ## ⚙️ Advanced Admin Features
 
@@ -36,16 +36,16 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 
 ## User Features
 
-### 1. 🔐 Registration and Authorization
+### 1. <a id="registration-and-authorization"></a>🔐 Registration and Authorization
 - Users must join mandatory channels before accessing the bot.
 - The bot verifies user subscriptions before allowing access.
 
-### 2. 💰 Balance Management
+### 2. <a id="balance"></a>💰 Balance Management
 - Users can check their balance at any time.
 - Funds can be added or deducted manually by an admin.
 - Transaction history stores the 10 most recent transactions.
 
-### 3. 📤 Withdrawals
+### 3. <a id="withdrawals"></a>📤 Withdrawals
 - Users can request withdrawals by entering an amount.
 - System checks:
   - Minimum and maximum withdrawal limits.
@@ -55,20 +55,20 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 - Users receive notifications about withdrawal request status (accept/reject) by admin.
 - Approved withdrawals are publicly logged in a configurable public log channel.
 
-### 4. 👫 Referral System
+### 4. <a id="referral"></a>👫 Referral System
 - Each user receives a unique referral link.
 - Bonuses are credited for each referred user once referral user joined all required channels.
 - System tracks and displays statistics (number of referrals, earned rewards, per refer amount).
 - Users can also view their last 10 referred users.
 
-### 5. 🎁 Bonus System
+### 5. <a id="bonus"></a>🎁 Bonus System
 - Users can claim a bonus by clicking a button at a configurable time interval (default: every 24 hours).
 - Bonus can be also publicly logged in a configurable public log channel if checked by admin in panel.
 
 ### <a id="statistics"></a>6. 📊 Statistics
 - The bot tracks total users, total referrals count, and total withdrawals.
 
-### 7. Support System
+### 7. <a id="support"></a>📞 Support System
 - Users can send support any type support message to admin.
 - The bot can also provides list of frequently asked questions (FAQ).
 - Admins receive all support messages and can reply directly to users with any type message.
