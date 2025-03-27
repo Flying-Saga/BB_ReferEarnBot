@@ -27,19 +27,23 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 - **[Setup Instructions](#setup-instructions)** – Step-by-step installation and configuration guide.
 - **[Screenshots](#screenshots)** – Placeholder images of admin panel, bot responses, and settings.
 
+## Development Standards
+- Clean, Modular Code: Easily maintainable with well-structured logic.
+- User-Friendly Interface: Clear buttons and concise messages for easy navigation.
+- Fully Configurable: All key settings can be adjusted via the bot panel or website admin-panel.
 
 ## User Features
 
-### [1. Registration and Authorization](#1-registration-and-authorization)
+### 1. Registration and Authorization
 - Users must join mandatory channels before accessing the bot.
 - The bot verifies user subscriptions before allowing access.
 
-### [2. Balance Management](#2-balance-management)
+### 2. Balance Management
 - Users can check their balance at any time.
 - Funds can be added or deducted manually by an admin.
 - Transaction history stores the 10 most recent transactions.
 
-### [3. Withdrawals](#3-withdrawals)
+### 3. Withdrawals
 - Users can request withdrawals by entering an amount.
 - System checks:
   - Minimum and maximum withdrawal limits.
@@ -49,20 +53,20 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 - Users receive notifications about withdrawal request status (accept/reject) by admin.
 - Approved withdrawals are publicly logged in a configurable public log channel.
 
-### [4. Referral System](#4-referral-system)
+### 4. Referral System
 - Each user receives a unique referral link.
 - Bonuses are credited for each referred user once referral user joined all required channels.
 - System tracks and displays statistics (number of referrals, earned rewards, per refer amount).
 - Users can also view their last 10 referred users.
 
-### [5. Bonus System](#5-bonus-system)
+### 5. Bonus System
 - Users can claim a bonus by clicking a button at a configurable time interval (default: every 24 hours).
 - Bonus can be also publicly logged in a configurable public log channel if checked by admin in panel.
 
-### [6. Statistics](#6-statistics)
+### 6. Statistics
 - The bot tracks total users, total referrals count, and total withdrawals.
 
-### [7. Support System](#7-support-system)
+### 7. Support System
 - Users can send support any type support message to admin.
 - The bot can also provides list of frequently asked questions (FAQ).
 - Admins receive all support messages and can reply directly to users with any type message.
@@ -70,26 +74,26 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 
 ## Administrator Features
 
-### [1. User Management](#1-user-management)
+### 1. User Management
 - Ban/unban users.
 - Modify user balances.
 
-### [2. Channel Management](#2-channel-management)
+### 2. Channel Management
 - Add/remove mandatory join channels.
 - Verify user subscriptions.
 - Set up an private log channel for withdrawal requests.
 - Configure the public channel for withdrawal and bonus announcements.
 
-### [3. Withdrawal Management](#3-withdrawal-management)
+### 3. Withdrawal Management
 - Approve/decline withdrawal requests via the admin channel or via admin-self.
 - Notify users about withdrawal decisions with balance manage.
 - Publish approved withdrawals in the public channel.
 
-### [4. Messaging Features](#4-messaging-features)
+### 4. Messaging Features
 - Admins can send broadcast any type messages to all users.
 - Admins can send messages directly to a user by ID (supports all message types: text, images, videos, documents, etc).
 
-### [5. Advanced Settings & Configurability](#5-advanced-settings--configurability)
+### 5. Advanced Settings & Configurability
 **Admin can edit bot settings directly from the bot or from the web based admin-panel.**
 - Configurable settings:
   - Referral bonus amount
@@ -107,7 +111,7 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 
 ## Setup Instructions
 
-### [1. Installation](#1-installation)
+### 1. Installation
 
 
 ## Screenshots
