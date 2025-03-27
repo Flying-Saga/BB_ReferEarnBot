@@ -1,8 +1,10 @@
-# Refer&Earn Bot
+# [Refer&Earn Bot](https://t.me/BB_ReferEarnBot)
 
 ## Introduction
 
 Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition organized by Bots.Business. It allows users to earn money by referring friends, manage their balance, withdraw earnings, and access various features. The bot meets all criteria set by Bots.Business and includes additional enhancements for better user experience and administration. Also, This bot is fully configurable via both the bot inline interface and a web-based admin panel.
+
+---
 
 ## 👤 Core Users Features:
 
@@ -14,6 +16,8 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 - **[Statistics](#6-statistics)** – Tracks total users, referrals, and earnings.
 - **[Support System](#7-support-system)** – Users can contact support, and admins can respond.
 
+---
+
 ## ⚙️ Advanced Admin Features
 
 - **[User Management](#1-user-management)** – Admin can ban/unban users and modify balances.
@@ -22,15 +26,21 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 - **[Messaging Features](#4-messaging-features)** – Admin can broadcast or message users directly.
 - **[Advanced Settings & Configurability](#5-advanced-settings--configurability)** – Admins can configure bot settings from the bot or website.
 
-## ➡️ Other URLs:
+---
+
+## 🔗 Setup and Visuals:
 
 - **[Setup Instructions](#setup-instructions)** – Step-by-step installation and configuration guide.
 - **[Screenshots](#screenshots)** – Placeholder images of admin panel, bot responses, and settings.
+
+---
 
 ## Development Standards
 - Clean, Modular Code: Easily maintainable with well-structured logic.
 - User-Friendly Interface: Clear buttons and concise messages for easy navigation.
 - Fully Configurable: All key settings can be adjusted via the bot panel or website admin-panel.
+
+---
 
 ## User Features
 
@@ -72,6 +82,8 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 - Admins receive all support messages and can reply directly to users with any type message.
 - Support system supports all message types (text, images, videos, documents, video-note, audio, etc).
 
+---
+
 ## Administrator Features
 
 ### 1. User Management
@@ -109,23 +121,44 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
   - Modify user balances
   - Directly message users
 
-## Setup Instructions
+---
 
-### 📌 How to Set Up  
+## 📌 Setup Instructions
+
+### How to Set Up  
 
 1. **Clone the Bot**
    - If bot is available on BB Store then, **clone from the Bot Store**.
-   - Alternatively, clone from **GitHub** using this link.
-2. **Set Admins**
-   - Start your bot by /start
+   - Alternatively, clone from **GitHub** using this repo link.
+2. **Set Admin**
+   - Start your bot by /start command.
    - Bot will automically set you as admin and you get "⚙️ Admin Panel" button in bot to manage. If you want to change admin id you can do from web based admin-panel.
 
 3. **Done!** 🎉
-   Now this bot is **ready to use** with full functionality. 🚀
+   Now this bot is **ready to use** with full functionality.
 
+---
 
 ## Screenshots
 - **Admin Panel Settings (Website)**: [Screenshot Placeholder]
 - **Admin Panel Settings (Bot)**: [Screenshot Placeholder]
 - **Bot Menu Buttons**: [Screenshot Placeholder]
 - **Some Bot Responses**: [Screenshot Placeholder]
+
+---
+
+## 💬 Contact
+
+Have questions or want to collaborate? Reach out via Telegram:
+
+👉 [Contact Developer](https://t.me/mrhazex)
+
+---
+
+## ⭐ Credits
+
+- Developed By: **Hazex**
+- Contest Hosted By: [Bots.Business](https://t.me/botsbus)
+- Bot Link: [@HazexBB_Bot](https://t.me/BB_ReferEarnBot)
+
+---
