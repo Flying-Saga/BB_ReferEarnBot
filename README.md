@@ -4,7 +4,7 @@
 
 Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition organized by Bots.Business. It allows users to earn money by referring friends, manage their balance, withdraw earnings, and access various features. The bot meets all criteria set by Bots.Business and includes additional enhancements for better user experience and administration. Also, This bot is fully configurable via both the bot inline interface and a web-based admin panel.
 
-## 👥 Core Users Features:
+## 👤 Core Users Features:
 
 - **[Registration and Authorization](#1-registration-and-authorization)** – Users must join mandatory channels before accessing the bot.
 - **[Balance Management](#2-balance-management)** – Users can check, add, and deduct balance with transaction history.
@@ -14,7 +14,7 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 - **[Statistics](#6-statistics)** – Tracks total users, referrals, and earnings.
 - **[Support System](#7-support-system)** – Users can contact support, and admins can respond.
 
-## 👤 Advanced Admin Features
+## ⚙️ Advanced Admin Features
 
 - **[User Management](#1-user-management)** – Admin can ban/unban users and modify balances.
 - **[Channel Management](#2-channel-management)** – Admin can manage mandatory channels and announcement channels settings.
@@ -34,16 +34,16 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 
 ## User Features
 
-### 1. Registration and Authorization
+### 1. 🔐 Registration and Authorization
 - Users must join mandatory channels before accessing the bot.
 - The bot verifies user subscriptions before allowing access.
 
-### 2. Balance Management
+### 2. 💰 Balance Management
 - Users can check their balance at any time.
 - Funds can be added or deducted manually by an admin.
 - Transaction history stores the 10 most recent transactions.
 
-### 3. Withdrawals
+### 3. 📤 Withdrawals
 - Users can request withdrawals by entering an amount.
 - System checks:
   - Minimum and maximum withdrawal limits.
@@ -53,20 +53,20 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 - Users receive notifications about withdrawal request status (accept/reject) by admin.
 - Approved withdrawals are publicly logged in a configurable public log channel.
 
-### 4. Referral System
+### 4. 👫 Referral System
 - Each user receives a unique referral link.
 - Bonuses are credited for each referred user once referral user joined all required channels.
 - System tracks and displays statistics (number of referrals, earned rewards, per refer amount).
 - Users can also view their last 10 referred users.
 
-### 5. Bonus System
+### 5. 🎁 Bonus System
 - Users can claim a bonus by clicking a button at a configurable time interval (default: every 24 hours).
 - Bonus can be also publicly logged in a configurable public log channel if checked by admin in panel.
 
-### 6. Statistics
+### 6. 📊 Statistics
 - The bot tracks total users, total referrals count, and total withdrawals.
 
-### 7. Support System
+### 7. 📞 Support System
 - Users can send support any type support message to admin.
 - The bot can also provides list of frequently asked questions (FAQ).
 - Admins receive all support messages and can reply directly to users with any type message.
@@ -111,11 +111,21 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 
 ## Setup Instructions
 
-### 1. Installation
+### 📌 How to Set Up  
+
+1. **Clone the Bot**
+   - If bot is available on BB Store then, **clone from the Bot Store**.
+   - Alternatively, clone from **GitHub** using this link.
+2. **Set Admins**
+   - Start your bot by /start
+   - Bot will automically set you as admin and you get "⚙️ Admin Panel" button in bot to manage. If you want to change admin id you can do from web based admin-panel.
+
+3. **Done!** 🎉
+   Now this bot is **ready to use** with full functionality. 🚀
 
 
 ## Screenshots
 - **Admin Panel Settings (Website)**: [Screenshot Placeholder]
+- **Admin Panel Settings (Bot)**: [Screenshot Placeholder]
 - **Bot Menu Buttons**: [Screenshot Placeholder]
-- **Admin Settings in Bot**: [Screenshot Placeholder]
-- **Bot Responses**: [Screenshot Placeholder]
+- **Some Bot Responses**: [Screenshot Placeholder]
