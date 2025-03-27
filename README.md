@@ -132,10 +132,10 @@ Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition 
 ---
 
 ## Screenshots
-- **Admin Panel Settings (Website)**: [Screenshot Placeholder]
-- **Admin Panel Settings (Bot)**: [Screenshot Placeholder]
-- **Bot Menu Buttons**: [Screenshot Placeholder]
-- **Some Bot Responses**: [Screenshot Placeholder]
+- **Admin Panel Settings (Website)**: [Panel Settings (Website)](https://i.ibb.co/1JqvjjwQ/download-1.png)
+- **Admin Panel Settings (Bot)**: [Panel Settings (Bot)](https://i.ibb.co/6RLmmRXY/download.jpg)
+- **Bot Menu Buttons**: [Menu Buttons](https://i.ibb.co/Wv97v70x/download-1.jpg)
+- **Some Bot Responses**: [Bot Responses](https://i.ibb.co/WNmKp7L4/download-2.jpg)
 
 ---
 
