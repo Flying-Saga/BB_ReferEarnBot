@@ -1,84 +1,117 @@
-# BB_ReferEarnBot - chat bot
-It is repository for chat bot: [@BB_ReferEarnBot](https://t.me/BB_ReferEarnBot)
+# Refer&Earn Bot
 
-## What it is?
-This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.
+## Introduction
 
-[Bots.Business](https://bots.business) - it is probably the first CBPaaS - Chat Bot Platform as a Service.
+Refer&Earn Bot (@BB_ReferEarnBot) is a Telegram bot developed for a competition organized by Bots.Business. It allows users to earn money by referring friends, manage their balance, withdraw earnings, and access various features. The bot meets all criteria set by Bots.Business and includes additional enhancements for better user experience and administration. Also, This bot is fully configurable via both the bot inline interface and a web-based admin panel.
 
-A CBPaaS is a cloud-based platform that enables developers to create chatbots without needing to build backend infrastructure.
+## 👥 Core Users Features:
 
-## Create your own bot for Telegram from this Git repo
+- **[Registration and Authorization](#1-registration-and-authorization)** – Users must join mandatory channels before accessing the bot.
+- **[Balance Management](#2-balance-management)** – Users can check, add, and deduct balance with transaction history.
+- **[Withdrawals](#3-withdrawals)** – Users can request withdrawals, which require admin approval.
+- **[Referral System](#4-referral-system)** – Users receive unique referral links and earn rewards.
+- **[Bonus System](#5-bonus-system)** – Users can claim periodic bonuses.
+- **[Statistics](#6-statistics)** – Tracks total users, referrals, and earnings.
+- **[Support System](#7-support-system)** – Users can contact support, and admins can respond.
 
-How to create bot?
-1. Create bot with [@BotFather](https://telegram.me/BotFather) and take Secret Token
-2. Create bot in App and add Secret Token
-3. Add Public Key from App as [Deploy key](https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys) with read access (and write access for bot exporting if you need it)
-4. Do import for this git repo
+## 👤 Advanced Admin Features
 
-Now you can talk with yours new Telegram Bot
+- **[User Management](#1-user-management)** – Admin can ban/unban users and modify balances.
+- **[Channel Management](#2-channel-management)** – Admin can manage mandatory channels and announcement channels settings.
+- **[Withdrawal Management](#3-withdrawal-management)** – Admin review and approve/decline withdrawals.
+- **[Messaging Features](#4-messaging-features)** – Admin can broadcast or message users directly.
+- **[Advanced Settings & Configurability](#5-advanced-settings--configurability)** – Admins can configure bot settings from the bot or website.
 
-See [more](https://help.bots.business/getting-started)
+## ➡️ Other URLs:
 
-## Commands - in commands folder
-File name - it is command name (Bot it can be rewritten in command description)
-
-Command can have: `name`, `help`, `aliases` (second names), `answer`, `keyboard`, `scnarios` (for simple logic) and other options.
-
-### Command description
-It is file header:
-
-    /*CMD
-      command: /test
-      help: this is help for ccommand
-      need_reply: [ true or false here ]
-      auto_retry_time: [ time in sec ]
-      answer: it is example answer for /test command
-      keyboard: button1, button2
-      aliases: /test2, /test3
-    CMD*/
-
-See [more](https://help.bots.business/commands)
-
-### Command body
-It is command code in JavaScript.
-Use Bot Java Script for logic in command.
-
-For example:
-> Bot.sendMessage(2+2);
-
-See [more](https://help.bots.business/scenarios-and-bjs)
+- **[Setup Instructions](#setup-instructions)** – Step-by-step installation and configuration guide.
+- **[Screenshots](#screenshots)** – Placeholder images of admin panel, bot responses, and settings.
 
 
-## Libraries - in libs folder
-You can store common code in the libs folder. File name - it is library name.
+## User Features
 
-For example code in myLib.js:
+### [1. Registration and Authorization](#1-registration-and-authorization)
+- Users must join mandatory channels before accessing the bot.
+- The bot verifies user subscriptions before allowing access.
 
-    function hello(){ Bot.sendMessage("Hello from lib!") }
-    function goodbye(name){ Bot.sendMessage("Goodbye, " + name) }
+### [2. Balance Management](#2-balance-management)
+- Users can check their balance at any time.
+- Funds can be added or deducted manually by an admin.
+- Transaction history stores the 10 most recent transactions.
 
-    publish({
-      sayHello: hello,
-      sayGoodbyeTo: goodbye
-    })
+### [3. Withdrawals](#3-withdrawals)
+- Users can request withdrawals by entering an amount.
+- System checks:
+  - Minimum and maximum withdrawal limits.
+  - Sufficient balance availability.
+  - Wallet confirmation (users must set their wallet before requesting a withdrawal).
+- Withdrawal requests are sent to an private log channel or admin for approval.
+- Users receive notifications about withdrawal request status (accept/reject) by admin.
+- Approved withdrawals are publicly logged in a configurable public log channel.
 
-then you can run in any bot's command:
+### [4. Referral System](#4-referral-system)
+- Each user receives a unique referral link.
+- Bonuses are credited for each referred user once referral user joined all required channels.
+- System tracks and displays statistics (number of referrals, earned rewards, per refer amount).
+- Users can also view their last 10 referred users.
 
-    Libs.myLib.hello()
-    Libs.myLib.sayGoodbyeTo("Alice")
+### [5. Bonus System](#5-bonus-system)
+- Users can claim a bonus by clicking a button at a configurable time interval (default: every 24 hours).
+- Bonus can be also publicly logged in a configurable public log channel if checked by admin in panel.
 
-See [more](https://help.bots.business/git/library)
+### [6. Statistics](#6-statistics)
+- The bot tracks total users, total referrals count, and total withdrawals.
 
-## Other bots example
-See other bots examples in the [github](https://github.com/bots-business?utf8=✓&tab=repositories&q=&type=public&language=javascript) or in the [Bot Store](https://bots.business/)
+### [7. Support System](#7-support-system)
+- Users can send support any type support message to admin.
+- The bot can also provides list of frequently asked questions (FAQ).
+- Admins receive all support messages and can reply directly to users with any type message.
+- Support system supports all message types (text, images, videos, documents, video-note, audio, etc).
+
+## Administrator Features
+
+### [1. User Management](#1-user-management)
+- Ban/unban users.
+- Modify user balances.
+
+### [2. Channel Management](#2-channel-management)
+- Add/remove mandatory join channels.
+- Verify user subscriptions.
+- Set up an private log channel for withdrawal requests.
+- Configure the public channel for withdrawal and bonus announcements.
+
+### [3. Withdrawal Management](#3-withdrawal-management)
+- Approve/decline withdrawal requests via the admin channel or via admin-self.
+- Notify users about withdrawal decisions with balance manage.
+- Publish approved withdrawals in the public channel.
+
+### [4. Messaging Features](#4-messaging-features)
+- Admins can send broadcast any type messages to all users.
+- Admins can send messages directly to a user by ID (supports all message types: text, images, videos, documents, etc).
+
+### [5. Advanced Settings & Configurability](#5-advanced-settings--configurability)
+**Admin can edit bot settings directly from the bot or from the web based admin-panel.**
+- Configurable settings:
+  - Referral bonus amount
+  - Bot currency
+  - Minimum and maximum withdrawal limits
+  - Bonus amount and interval
+  - Public and private log channels
+  
+- Management settings (only available in the bot panel):
+  - Ban/unban users
+  - Add/remove mandatory channels
+  - Broadcast messages
+  - Modify user balances
+  - Directly message users
+
+## Setup Instructions
+
+### [1. Installation](#1-installation)
 
 
-## Other help
-[Help.bots.business](https://help.bots.business)
-
-## API
-See [API](https://api.bots.business/docs#/docs/summary)
-
-
-![](https://bots.business/images/web-logo.png)
+## Screenshots
+- **Admin Panel Settings (Website)**: [Screenshot Placeholder]
+- **Bot Menu Buttons**: [Screenshot Placeholder]
+- **Admin Settings in Bot**: [Screenshot Placeholder]
+- **Bot Responses**: [Screenshot Placeholder]
