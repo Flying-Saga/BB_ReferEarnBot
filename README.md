@@ -169,6 +169,8 @@ The bot includes a robust error handler to prevent disruptions and notify admins
 ![Menu Buttons](https://github.com/user-attachments/assets/544b03c3-0397-4929-8928-b3c6a894aa05)
 ### Some Bot Responses:
 ![Bot Responses](https://github.com/user-attachments/assets/0f9e0d01-9fbb-4ed5-8eb9-d701f9dc2a67)
+### Profile and Referral Section (Mobile view):
+![mobile-portrait-view](https://github.com/user-attachments/assets/9ea2a261-f569-482a-8e7f-3a907d13106b)
 
 ---
 
