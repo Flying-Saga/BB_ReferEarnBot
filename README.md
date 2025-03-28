@@ -1,4 +1,4 @@
-# 🤖 [Refer&Earn Bot](https://t.me/BB_ReferEarnBot)
+# 🤖 [Refer&Earn Bot (Hazex)](https://t.me/BB_ReferEarnBot)
 
 ## Introduction
 
@@ -185,6 +185,6 @@ Have questions or want to collaborate? Reach out via Telegram:
 
 - Developed By: **Hazex**
 - Contest Hosted By: [Bots.Business](https://t.me/botsbus)
-- Bot Link: [@HazexBB_Bot](https://t.me/BB_ReferEarnBot)
+- Bot Link: [@BB_ReferEarnBot](https://t.me/BB_ReferEarnBot)
 
 ---
