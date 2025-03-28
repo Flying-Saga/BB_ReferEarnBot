@@ -33,6 +33,13 @@ let trackOptions = {
 }
 RefLib.track(trackOptions);
 
+// Count users
+if (!User.getProperty("userDone")) {
+  User.setProperty("userDone", true, "boolean");
+  var totalUsers = Libs.ResourcesLib.anotherChatRes("totalUsers", "global");
+  totalUsers.add(1);
+}
+
 // Check membership and respond
 Bot.run({ command: "/checkMembership", background: false});
 
@@ -90,13 +97,6 @@ if (!isReferred) {
     }
     
     User.setProperty("isReferred", true, "boolean")
-}
-
-// Count users
-if (!User.getProperty("userDone")) {
-  User.setProperty("userDone", true, "boolean");
-  var totalUsers = Libs.ResourcesLib.anotherChatRes("totalUsers", "global");
-  totalUsers.add(1);
 }
 
 
