@@ -127,7 +127,7 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 
 ---
 
-## ⚠❗Error Handler
+## ❗Error Handler
 The bot includes a robust error handler to prevent disruptions and notify admins of issues:
 - Handles message edit failures (when a message is not modified)
 - Detects if the bot is not an admin in log channels and alerts the admin
