@@ -62,8 +62,7 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 - Approved withdrawals are publicly logged in a configurable public log channel.
 
 #### Users must confirm their withdrawal request before submitting, ensuring their wallet and amount are correct.
-![user withdrawal confirmation](https://github.com/user-attachments/assets/29e1032b-211b-4eaf-8e19-84694d12b6cb)
-
+![User Withdrawal Confirmation](https://github.com/user-attachments/assets/1f85336d-aece-4014-aaed-c008d0e06b1d)
 
 ### 4. <a id="referral"></a>👫 Referral System
 - Each user receives a unique referral link.
@@ -105,7 +104,7 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 - Publish approved withdrawals in the public channel.
 
 #### Approve/decline withdrawal requests message with all details
-![admin withdrawal approval message](https://github.com/user-attachments/assets/d00d8ad9-9256-4a4b-a0d5-f43c7891eeab)
+![Admin Withdrawal approval message](https://github.com/user-attachments/assets/88fbed44-ca54-4c67-b266-71b18c494a8c)
 
 ### 4. Messaging Features
 - Admins can send messages directly to a user by ID (supports all message types: text, images, videos, documents, etc).
@@ -162,15 +161,15 @@ The bot includes a robust error handler to prevent disruptions and notify admins
 
 ## Screenshots
 ### Admin Panel Settings (Website):
-![Panel Settings (Website)](https://github.com/user-attachments/assets/39ec0aca-0c48-4482-bc41-6a53eb26fc11)
+![Panel Settings (Website)](https://github.com/user-attachments/assets/8e0bf1a4-6248-44da-896a-34544f492175)
 ### Admin Panel Settings (Bot):
-![Panel Settings (Bot)](https://github.com/user-attachments/assets/c57029dc-50ef-45a2-81c3-4cd5da130abe)
+![Panel Settings (Bot)](https://github.com/user-attachments/assets/a481a689-6a9d-4438-8181-21f886d75391)
 ### Bot Menu Buttons:
-![Menu Buttons](https://github.com/user-attachments/assets/544b03c3-0397-4929-8928-b3c6a894aa05)
-### Some Bot Responses:
-![Bot Responses](https://github.com/user-attachments/assets/0f9e0d01-9fbb-4ed5-8eb9-d701f9dc2a67)
+![Menu Buttons](https://github.com/user-attachments/assets/1ce1ac4b-424f-4c51-8b17-6b7b0473fa60)
+### Statistics Bot Responses:
+![Statistics](https://github.com/user-attachments/assets/9f3e122e-15f6-4dfa-921e-c2eb712ba366)
 ### Profile and Referral Section (Mobile view):
-![mobile-portrait-view](https://github.com/user-attachments/assets/9ea2a261-f569-482a-8e7f-3a907d13106b)
+![Mobile Portrait View](https://github.com/user-attachments/assets/9ea2a261-f569-482a-8e7f-3a907d13106b)
 
 ---
 
