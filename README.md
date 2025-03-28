@@ -68,7 +68,8 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 
 ### 5. <a id="bonus"></a>🎁 Bonus System
 - Users can claim a bonus by clicking a button at a configurable time interval (default: every 24 hours).
-- Bonus can be also publicly logged in a configurable public log channel if checked by admin in panel.
+- Bonus amount is also configurable by admin (default: 1).
+- The bonus will be logged in a public log channel only if the admin enables it in the web based admin-panel.
 
 ### <a id="statistics"></a>6. 📊 Statistics
 - The bot tracks total users, total referrals count, and total withdrawals.
@@ -111,10 +112,11 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 **Admin can edit bot settings directly from the bot or from the web based admin-panel.**
 - Configurable settings:
   - Referral bonus amount
-  - Bot currency
+  - Bot currency (default: INR)
   - Minimum and maximum withdrawal limits
   - Bonus amount and interval
-  - Public and private log channels
+  - Public and private log channels (both are optional)
+  - Wallet type (default: UPI ID)
   
 - Management settings (only available in the bot panel):
   - Ban/unban users
