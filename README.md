@@ -61,6 +61,10 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 - Users receive notifications about withdrawal request status (accept/reject) by admin.
 - Approved withdrawals are publicly logged in a configurable public log channel.
 
+#### Users must confirm their withdrawal request before submitting, ensuring their wallet and amount are correct.
+![User Withdrawal Confirmation](https://github.com/user-attachments/assets/29e1032b-211b-4eaf-8e19-84694d12b6cb)
+
+
 ### 4. <a id="referral"></a>👫 Referral System
 - Each user receives a unique referral link.
 - Bonuses are credited for each referred user once referral user joined all required channels.
