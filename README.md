@@ -62,7 +62,7 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 - Approved withdrawals are publicly logged in a configurable public log channel.
 
 #### Users must confirm their withdrawal request before submitting, ensuring their wallet and amount are correct.
-![User Withdrawal Confirmation](https://github.com/user-attachments/assets/29e1032b-211b-4eaf-8e19-84694d12b6cb)
+![user withdrawal confirmation](https://github.com/user-attachments/assets/29e1032b-211b-4eaf-8e19-84694d12b6cb)
 
 
 ### 4. <a id="referral"></a>👫 Referral System
@@ -103,6 +103,9 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 - Approve/decline withdrawal requests via the admin channel or via admin-self.
 - Notify users about withdrawal decisions with balance manage.
 - Publish approved withdrawals in the public channel.
+
+#### Approve/decline withdrawal requests message
+![admin withdrawal approval message](https://github.com/user-attachments/assets/d00d8ad9-9256-4a4b-a0d5-f43c7891eeab)
 
 ### 4. Messaging Features
 - Admins can send messages directly to a user by ID (supports all message types: text, images, videos, documents, etc).
