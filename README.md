@@ -26,7 +26,8 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 
 ## 🔗 Setup and Visuals:
 
-- **[Setup Instructions](#setup)** – Step-by-step installation and configuration guide.
+- **[Bot Error Handler](#error-handler)** – Handles and logs bot errors efficiently.
+- **[Setup Instructions](#setup)** – Step-by-step bot installation and configuration guide.
 - **[Screenshots](#screenshots)** – Placeholder images of admin panel, bot responses, and settings.
 
 ## Development Standards
@@ -127,7 +128,7 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 
 ---
 
-## ❗Error Handler
+## <a id="error-handler"></a>❗Bot Error Handler
 The bot includes a robust error handler to prevent disruptions and notify admins of issues:
 - Handles message edit failures (when a message is not modified)
 - Detects if the bot is not an admin in log channels and alerts the admin
