@@ -26,7 +26,7 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 
 ## 🔗 Setup and Visuals:
 
-- **[Setup Instructions](#setup-instructions)** – Step-by-step installation and configuration guide.
+- **[Setup Instructions](#setup)** – Step-by-step installation and configuration guide.
 - **[Screenshots](#screenshots)** – Placeholder images of admin panel, bot responses, and settings.
 
 ## Development Standards
@@ -133,7 +133,7 @@ The bot includes a robust error handler to prevent disruptions and notify admins
 - Prevents withdrawal requests if the user's wallet is not set
 - Input validation for every command (e.g., ensures numeric input for balance-related commands, etc)
 
-## 📌 Setup Instructions
+## <a id="setup"></a>📌 Setup Instructions
 
 ### How to Set Up  
 
