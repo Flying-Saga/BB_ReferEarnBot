@@ -152,13 +152,13 @@ The bot includes a robust error handler to prevent disruptions and notify admins
 
 ## Screenshots
 ### Admin Panel Settings (Website):
-![Panel Settings (Website)](https://i.ibb.co/1JqvjjwQ/download-1.png)
+![Panel Settings (Website)](https://github.com/user-attachments/assets/39ec0aca-0c48-4482-bc41-6a53eb26fc11)
 ### Admin Panel Settings (Bot):
-![Panel Settings (Bot)](https://i.ibb.co/6RLmmRXY/download.jpg)
+![Panel Settings (Bot)](https://github.com/user-attachments/assets/c57029dc-50ef-45a2-81c3-4cd5da130abe)
 ### Bot Menu Buttons:
-![Menu Buttons](https://i.ibb.co/Wv97v70x/download-1.jpg)
+![Menu Buttons](https://github.com/user-attachments/assets/544b03c3-0397-4929-8928-b3c6a894aa05)
 ### Some Bot Responses:
-![Bot Responses](https://i.ibb.co/QF8NNXS9/download-3.jpg)
+![Bot Responses](https://github.com/user-attachments/assets/0f9e0d01-9fbb-4ed5-8eb9-d701f9dc2a67)
 
 ---
 
