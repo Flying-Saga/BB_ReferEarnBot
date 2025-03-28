@@ -31,12 +31,12 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 - **[Screenshots](#screenshots)** – Placeholder images of admin panel, bot responses, and settings.
 
 ## Development Standards
-- Clean, Modular Code: Easily maintainable with well-structured logic.
-- User-Friendly Interface: Clear buttons and concise messages for easy navigation.
-- Fully Configurable: All key settings can be adjusted via the bot panel or website admin-panel.
-- Well-Commented Code: Simple and easy-to-understand comments throughout the code to help users follow along effortlessly.
-- Meaningful Variable & Function Names: Variables and functions have clear, meaningful, and simple names to enhance readability.
-- Simplicity & Clarity: The code is written in a straightforward and easy-to-understand manner, making it accessible even for beginners.
+- **Clean, Modular Code:** Easily maintainable with well-structured logic.
+- **User-Friendly Interface:** Clear buttons and concise messages for easy navigation.
+- **Fully Configurable:** All key settings can be adjusted via the bot panel or website admin-panel.
+- **Well-Commented Code:** Simple and easy-to-understand comments throughout the code to help users follow along effortlessly.
+- **Meaningful Variable & Function Names:** Variables and functions have clear, meaningful, and simple names to enhance readability.
+- **Simplicity & Clarity:** The code is written in a straightforward and easy-to-understand manner, making it accessible even for beginners.
 
 ---
 
@@ -76,11 +76,11 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 - The bonus will be logged in a public log channel only if the admin enables it in the web based admin-panel.
 
 ### <a id="statistics"></a>6. 📊 Statistics
-- The bot tracks total users, total referrals count, and total withdrawals.
+- The bot tracks **total users, total referrals count**, and **total withdrawals**.
 
 ### 7. <a id="support"></a>📞 Support System
 - Users can send any type of support message to the admin.
-- The bot can also provides list of frequently asked questions (FAQ).
+- The bot can also provides list of **frequently asked questions (FAQs)**.
 - Admins receive all support messages and can reply directly to users with any message type.
 - Support system supports all message types (text, images, videos, documents, video-note, audio, etc).
 
@@ -90,7 +90,7 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 
 ### 1. User Management
 - Ban/unban users.
-- Modify user balances (add/cut).
+- Modify user balances *(add/cut)*.
 
 ### 2. Channel Management
 - Add/remove mandatory join channels.
@@ -113,17 +113,17 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 ### 5. Broadcast Feature
 - Admins can send broadcast any type messages to all users.
 - Broadcast supports all message types: text, images, videos, documents, etc.
-- Admin can check broadcast status, with refresh inline buttton.
+- Admin can check **broadcast status**, with refresh inline buttton.
 
 ### 6. Advanced Settings & Configurability
 **Admin can edit bot settings directly from the bot or from the web based admin-panel.**
 - Configurable settings:
   - Referral bonus amount
-  - Bot currency (default: INR)
+  - Bot currency (*default: INR*)
   - Minimum and maximum withdrawal limits
   - Bonus amount and interval
   - Public and private log channels (both are optional)
-  - Wallet type (default: UPI ID)
+  - Wallet type (*default: UPI ID*)
   
 - Management settings (only available in the bot panel):
   - Ban/unban users
