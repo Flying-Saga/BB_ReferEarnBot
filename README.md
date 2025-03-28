@@ -104,7 +104,7 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 - Notify users about withdrawal decisions with balance manage.
 - Publish approved withdrawals in the public channel.
 
-#### Approve/decline withdrawal requests message
+#### Approve/decline withdrawal requests message with all details
 ![admin withdrawal approval message](https://github.com/user-attachments/assets/d00d8ad9-9256-4a4b-a0d5-f43c7891eeab)
 
 ### 4. Messaging Features
