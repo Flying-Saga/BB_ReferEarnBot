@@ -1,4 +1,4 @@
-# [Refer&Earn Bot](https://t.me/BB_ReferEarnBot)
+# 🤖 [Refer&Earn Bot](https://t.me/BB_ReferEarnBot)
 
 ## Introduction
 
@@ -127,7 +127,7 @@ The bot meets all criteria set by *Bots.Business* and includes additional enhanc
 
 ---
 
-## Error Handler
+## ⚠❗Error Handler
 The bot includes a robust error handler to prevent disruptions and notify admins of issues:
 - Handles message edit failures (when a message is not modified)
 - Detects if the bot is not an admin in log channels and alerts the admin
@@ -137,7 +137,7 @@ The bot includes a robust error handler to prevent disruptions and notify admins
 
 ## <a id="setup"></a>📌 Setup Instructions
 
-### How to Set Up  
+### How to Set Up: 
 
 1. **Clone the Bot**
    - If bot is available on BB Store then, **clone from the BB Bot Store**.
