@@ -31,7 +31,6 @@ if ( !admin ) {
 }
 
 // Handle message and notify user
-Bot.inspect(request)
 onMessageReceived(request);
 Bot.sendMessage("*✅ Message Has Been Sent To Admin!*")
 
