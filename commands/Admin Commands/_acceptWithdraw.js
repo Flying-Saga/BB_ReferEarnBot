@@ -63,7 +63,6 @@ Api.editMessageText({
     message_id: request.message.message_id,
     disable_web_page_preview: true
 })
-Bot.deleteProp(`withdrawInfo-${params}`)
 
 let publicLog = AdminPanel.getFieldValue({
     panel_name: "BotPanel",
@@ -91,7 +90,8 @@ let now = new Date().toLocaleString("en-US", {
     timeZone: "Asia/Kolkata"
 });
 now = Libs.DateTimeFormat.format(now, " [d mmm, yyyy	HH:MM]");
-Bot.run({ command: "/addInHistory", options: { text: `➖ Withdraw: <u>${withInfo.amount} ${withInfo.currency}</> ${now}` } })
+Bot.run({ user_telegramid: withInfo.user.telegramid, command: "/addInHistory", options: { text: `➖ Withdraw: <u>${withInfo.amount} ${withInfo.currency}</> ${now}` } })
+Bot.deleteProp(`withdrawInfo-${params}`)
 
 // Function to generate user's link
 function generateUserLink(user) {
