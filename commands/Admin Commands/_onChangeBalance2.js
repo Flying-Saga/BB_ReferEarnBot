@@ -51,11 +51,11 @@ var amount = convertString(message)
 if (Number(message) < 0) {
     Bot.sendMessage(`*✅  Balance Successfully Deducted\n\n💵 Amount: ${amount} ${currency}\n💰 Updated Balance: ${userBalance.value()} ${currency}*`)
     Api.sendMessage({ chat_id: options.user, text: `*➖  Admin Has Decreased Your Balance\n\n💵 Amount: ${amount} ${currency}\n💰 Updated Balance: ${userBalance.value()} ${currency}*`, parse_mode: "markdown" })
-    Bot.run({ command: "/addInHistory", options: { text: "➖ Decreased by Admin: <u>" + amount + " " + currency + "</>" + now } })
+    Bot.run({ user_telegramid: options.user, command: "/addInHistory", options: { text: "➖ Decreased by Admin: <u>" + amount + " " + currency + "</>" + now } })
 } else {
     Bot.sendMessage(`*✅  Balance Successfully Added\n\n💵 Amount: ${amount} ${currency}\n💰 Updated Balance: ${userBalance.value()} ${currency}*`)
     Api.sendMessage({ chat_id: options.user, text: `*➕  Admin Has Increased Your Balance\n\n💵 Amount: ${amount} ${currency}\n💰 Updated Balance: ${userBalance.value()} ${currency}*`, parse_mode: "markdown" })
-    Bot.run({ command: "/addInHistory", options: { text: "➕ Increased by Admin: <u>" + amount + " " + currency + "</>" + now } })
+    Bot.run({ user_telegramid: options.user, command: "/addInHistory", options: { text: "➕ Increased by Admin: <u>" + amount + " " + currency + "</>" + now } })
 }
 
 // Function to check if a value is a number (positive or negative, but not zero)
